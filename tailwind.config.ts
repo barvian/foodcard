@@ -28,7 +28,7 @@ export default {
 			},
 			fontSize: {
 				// https://royalfig.github.io/fluid-typography-calculator/
-				'xl': 'clamp(1.5rem, 1.41rem + 0.434vw, 1.75rem)',
+				xl: 'clamp(1.5rem, 1.41rem + 0.434vw, 1.75rem)',
 				'4xl': 'clamp(2.75rem, 1.4021739130434783rem + 6.739130434782608vw, 6.625rem)'
 			},
 			backgroundImage: {},
@@ -37,16 +37,11 @@ export default {
 				xl: 'clamp(2.00rem, calc(1.52rem + 2.39vw), 3.38rem)',
 				'2xl': 'clamp(3.125rem, 2.4728260869565215rem + 3.260869565217391vw, 5rem)'
 			},
-			letterSpacing: {
-			},
-			lineHeight: {
-			},
+			letterSpacing: {},
+			lineHeight: {},
 			dropShadow: {},
-			animation: {
-			},
-			keyframes: {
-				
-			},
+			animation: {},
+			keyframes: {},
 			transitionTimingFunction: {
 				'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
 				'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
