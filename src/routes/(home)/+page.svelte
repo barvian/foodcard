@@ -81,7 +81,7 @@
 		</svg>
 		
 		<!-- Left card -->
-		<div class="absolute h-[36%] right-[105%] bottom-[7%] group origin-bottom-right z-20 rotate-[60deg]" on:pointerover={() => $path = LEFT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute h-[36%] right-[105%] bottom-[7%] group origin-bottom-right z-20 rotate-[60deg] aspect-[555/351]" on:pointerover={() => $path = LEFT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<svg class="h-[135%] absolute opacity-80 pointer-events-none -bottom-[40%] -right-[30%]" viewBox="0 0 407 451" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g filter="url(#filter0_f_626_207)">
 				<rect x="205" y="100" width="93" height="251" rx="46.5" fill="#FFE703" fill-opacity="0.7"/>
@@ -106,7 +106,7 @@
 					<line x1="60" y1="435" x2="373" y2="435" stroke="black" stroke-width="2"/>
 					<line x1="6" y1="18" x2="427" y2="18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 7.5"/>
 				</svg>					
-			</div>			
+			</div>
 			<svg class="relative h-full pointer-events-none origin-[inherit] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo group-hover:-rotate-[7deg] will-change-transform" viewBox="0 0 555 351" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<rect width="554.836" height="350.406" rx="37" fill="#FEE600"/>
 				<path d="M84.2631 47.2496H65.6609V80.6703H84.2631V47.2496Z" fill="#FF5A00"/>
@@ -137,7 +137,7 @@
 			</filter>
 			</defs>
 		</svg>				
-		<div class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left rotate-[14deg]" on:pointerover={() => $path = CENTER_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left rotate-[14deg] aspect-[555/351]" on:pointerover={() => $path = CENTER_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<!-- Rate -->
 			<div class="absolute bottom-0 left-0 w-full h-[200%] overflow-hidden pointer-events-none">
 				<svg class="w-[45%] absolute left-[45%] top-1/2 will-change-transform translate-y-[10%] group-hover:-translate-x-[10%] group-hover:-translate-y-[55%] group-hover:-rotate-[12.5deg] transition ease-out-expo group-hover:duration-[500ms] duration-[750ms]" viewBox="0 0 433 694" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +165,7 @@
 		<div class="bg-black prev-hover:-translate-y-[5%] transition duration-[400ms] ease-out-quart z-10 rounded-[100%] h-[70%] left-[30%] absolute -bottom-[33%] aspect-square" />	
 
 		<!-- Right card -->
-		<div class="absolute left-[93%] z-20 bottom-[9%] group h-[37%] origin-bottom-left -rotate-[30deg]" on:pointerover={() => $path = RIGHT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute left-[93%] z-20 bottom-[9%] group h-[37%] origin-bottom-left -rotate-[30deg] aspect-[555/351]" on:pointerover={() => $path = RIGHT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<svg class="h-[125%] absolute pointer-events-none -bottom-[40%] -left-[30%]" viewBox="0 0 425 404" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g filter="url(#filter0_f_626_201)">
 					<rect x="100.883" y="100.181" width="93" height="202.884" rx="46.5" fill="#98E53B" fill-opacity="0.7"/>
