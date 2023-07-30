@@ -36,12 +36,8 @@
 	transition: all 0.7s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 
-.slide-up {
-	@apply overflow-hidden;
-}
-
-.slide-up > :only-child {
-	@apply transition-transform duration-1000 skew-y-6 ease-out-expo translate-y-[115%] entered-fonts-loaded:translate-y-0 entered-fonts-loaded:skew-y-0;
+.zoom-in {
+	@apply transition duration-700 skew-y-3 ease-out-quart scale-75 opacity-0 entered-fonts-loaded:scale-100 entered-fonts-loaded:opacity-100 entered-fonts-loaded:skew-y-0;
 }
 
 .overlap {

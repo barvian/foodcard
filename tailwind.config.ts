@@ -50,6 +50,10 @@ export default {
 			transitionTimingFunction: {
 				'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
 				'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+				'in-out-quad': 'cubic-bezier(0.65, 0, 0.35, 1)',
+				'out-cubic': 'cubic-bezier(0.33, 1, 0.68, 1)',
+				'out-quad': 'cubic-bezier(0.5, 1, 0.89, 1)',
+				'in-out-cubic': 'cubic-bezier(0.65, 0, 0.35, 1)',
 				'out-quart': 'cubic-bezier(0.25, 1, 0.5, 1)'
 			}
 		}

@@ -24,21 +24,21 @@
 
 <header
 	class="pt-[clamp(theme(padding.5),4vw,theme(padding.10))] text-center overflow-hidden"
->
+	use:observe>
 	<div class="container @container relative z-30">
 		<nav class="flex items-center mb-2xl">
-			<a href="/"><Logo class="h-7" /></a>
+			<a href="/" class="zoom-in"><Logo class="h-7" /></a>
 			<div
 				class="hidden @5xl:flex gap-[2.5em] whitespace-nowrap font-medium mx-auto"
 			>
-				<span class="cursor-not-allowed">Product</span>
-				<span class="cursor-not-allowed">Pricing</span>
-				<span class="cursor-not-allowed">Customers</span>
-				<span class="cursor-not-allowed">Resources</span>
+				<span class="cursor-not-allowed zoom-in delay-[60ms]">Product</span>
+				<span class="cursor-not-allowed zoom-in delay-[120ms]">Pricing</span>
+				<span class="cursor-not-allowed zoom-in delay-[180ms]">Customers</span>
+				<span class="cursor-not-allowed zoom-in delay-[220ms]">Resources</span>
 			</div>
 			<div class="hidden @5xl:flex gap-6 whitespace-nowrap items-center">
-				<span class="font-bold text-lg cursor-not-allowed">Log in</span>
-				<span class="font-bold text-lg cursor-not-allowed rounded-full px-[1.6em] py-[0.25em] border-2">
+				<span class="font-bold text-lg cursor-not-allowed zoom-in delay-[280ms]">Log in</span>
+				<span class="font-bold text-lg cursor-not-allowed zoom-in delay-[340ms] rounded-full px-[1.6em] py-[0.25em] border-2">
 					Sign Up
 				</span>
 			</div>
@@ -48,22 +48,22 @@
 				<div class="bg-black h-0.5 rounded-full" />
 			</div>
 		</nav>
-		<h1 class="text-4xl/[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center" use:observe>
-			<span class="inline-block relative">
+		<h1 class="text-4xl/[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center zoom-in">
+			<span class="inline-block relative zoom-in">
 				Best
-				<svg class="top-[87%] -right-[5%] w-[110%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[400ms]" viewBox="0 0 366 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="top-[87%] -right-[5%] w-[110%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[400ms] delay-[300ms]" viewBox="0 0 366 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M2.8032 11.7473C2.8032 11.7473 8.7498 11.4011 20.643 10.7086C32.5362 10.0161 43.8299 9.2916 54.524 8.53507C65.2182 7.77855 76.1763 7.14421 87.3983 6.63206C98.6204 6.11991 110.098 5.73596 121.83 5.48021C133.563 5.22445 145.284 4.83637 156.992 4.31595C168.701 3.79554 180.672 3.14667 192.904 2.36935C205.137 1.59203 217.386 1.06812 229.652 0.797649C241.918 0.527175 256.753 0.308823 274.159 0.14259C291.564 -0.023644 305.38 -0.0043217 315.607 0.200561C325.834 0.405444 334.86 0.587921 342.685 0.747991C350.511 0.908061 355.909 1.06767 358.881 1.22682C361.852 1.38597 363.46 1.49954 363.705 1.56752C363.949 1.63551 364.177 1.74079 364.387 1.88337C364.597 2.02594 364.779 2.19835 364.933 2.40059C365.087 2.60283 365.204 2.82433 365.285 3.06506C365.366 3.30579 365.407 3.55317 365.407 3.80719C365.407 4.06121 365.366 4.30857 365.285 4.54928C365.204 4.78999 365.086 5.01144 364.933 5.21363C364.779 5.41583 364.597 5.58817 364.387 5.73068C364.176 5.8732 363.949 5.97842 363.704 6.04633C363.459 6.11423 363.21 6.14129 362.956 6.12749C362.703 6.11368 362.458 6.05974 362.222 5.96566C361.986 5.87159 361.771 5.74231 361.578 5.57782C361.384 5.41333 361.222 5.22223 361.091 5.00454C360.96 4.78685 360.867 4.55398 360.813 4.30588C360.758 4.05779 360.745 3.80748 360.772 3.55496C360.8 3.30243 360.867 3.06091 360.974 2.8304C361.08 2.59989 361.221 2.39246 361.396 2.20809C361.571 2.02372 361.77 1.87208 361.995 1.75316C362.219 1.63424 362.457 1.55427 362.707 1.51325C362.958 1.47223 363.209 1.4723 363.459 1.51347C363.71 1.55465 363.948 1.63476 364.172 1.75382C364.396 1.87287 364.596 2.02464 364.77 2.20911C364.945 2.39358 365.086 2.60111 365.192 2.83168C365.299 3.06226 365.366 3.30381 365.393 3.55635C365.421 3.80889 365.407 4.0592 365.352 4.30726C365.298 4.55532 365.205 4.78815 365.074 5.00576C364.943 5.22337 364.78 5.41435 364.587 5.57872C364.393 5.7431 364.178 5.87225 363.942 5.96618C363.706 6.06011 363.461 6.11391 363.208 6.12756C362.954 6.14121 362.827 6.14804 362.827 6.14806C362.828 6.14809 361.415 5.9121 358.588 5.44009C355.762 4.96807 350.436 4.65682 342.611 4.50635C334.786 4.35588 325.779 4.18493 315.589 3.99347C305.4 3.80201 291.611 3.79845 274.223 3.9828C256.834 4.16714 242.035 4.40614 229.824 4.69977C217.614 4.9934 205.382 5.54738 193.126 6.3617C180.871 7.17603 168.876 7.86892 157.139 8.44039C145.402 9.01186 133.687 9.46002 121.993 9.78485C110.299 10.1097 98.865 10.5768 87.6907 11.1861C76.5164 11.7955 65.5788 12.5506 54.8779 13.4514C44.1771 14.3522 32.887 15.2527 21.0077 16.1528C9.12844 17.053 3.07308 17.4968 2.84163 17.4843C2.61019 17.4718 2.3836 17.4318 2.16187 17.3643C1.94014 17.2967 1.72971 17.2037 1.53058 17.085C1.33146 16.9664 1.14941 16.8257 0.984459 16.6628C0.819509 16.5 0.676441 16.3198 0.555255 16.1222C0.434069 15.9246 0.33829 15.7154 0.267911 15.4946C0.197532 15.2737 0.1546 15.0477 0.139118 14.8164C0.123637 14.5852 0.136048 14.3554 0.176364 14.1271C0.216679 13.8989 0.283721 13.6788 0.37749 13.4668C0.47126 13.2548 0.589042 13.0572 0.730816 12.8738C0.872589 12.6904 1.03424 12.5267 1.21578 12.3826C1.39732 12.2385 1.59346 12.1182 1.80421 12.0217C2.01496 11.9253 2.23419 11.8554 2.46191 11.8122C2.68962 11.7689 2.8033 11.7473 2.8032 11.7473Z" fill="black"/>
 				</svg>					
-				<svg class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[425ms]" viewBox="0 0 412 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<svg class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[825ms]" viewBox="0 0 412 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M2.19677 32.1331C2.19677 32.1331 5.81812 30.8003 13.0608 28.1347C20.3035 25.4691 28.3478 23.3374 37.1938 21.7395C46.0398 20.1417 58.1782 18.4674 73.609 16.7167C89.0398 14.966 109.128 13.0912 133.872 11.0923C158.617 9.09347 184.424 7.55915 211.293 6.48936C238.162 5.41957 263.725 4.58265 287.982 3.97859C312.239 3.37453 332.747 2.86526 349.505 2.45078C366.263 2.0363 379.247 1.61701 388.457 1.1929C397.667 0.768802 403.526 0.467742 406.035 0.289722C408.543 0.111703 409.896 0.0359791 410.094 0.0625629C410.291 0.0891467 410.48 0.146077 410.658 0.233347C410.837 0.320618 410.997 0.433662 411.138 0.572482C411.279 0.711302 411.393 0.868634 411.482 1.04447C411.57 1.2203 411.628 1.40544 411.654 1.59988C411.681 1.79432 411.675 1.98788 411.637 2.18057C411.6 2.37326 411.531 2.55498 411.433 2.72574C411.334 2.8965 411.211 3.04736 411.062 3.17832C410.913 3.30927 410.747 3.41346 410.564 3.4909C410.38 3.56834 410.189 3.61496 409.99 3.63077C409.791 3.64658 409.595 3.63076 409.401 3.58329C409.208 3.53583 409.027 3.4592 408.859 3.35343C408.691 3.24765 408.545 3.11825 408.42 2.96524C408.295 2.81222 408.198 2.6436 408.13 2.45938C408.061 2.27515 408.024 2.08496 408.019 1.88881C408.014 1.69265 408.041 1.5008 408.1 1.31326C408.159 1.12571 408.246 0.952296 408.363 0.793001C408.48 0.633705 408.619 0.496876 408.782 0.382506C408.944 0.268136 409.12 0.182212 409.311 0.124742C409.502 0.0672716 409.697 0.0412591 409.897 0.0467058C410.096 0.0521525 410.29 0.0887698 410.477 0.156563C410.664 0.224357 410.836 0.319774 410.991 0.442816C411.146 0.565859 411.278 0.710089 411.385 0.875497C411.492 1.04091 411.569 1.21884 411.617 1.40929C411.665 1.59975 411.681 1.79276 411.664 1.98833C411.648 2.18389 411.6 2.37177 411.521 2.55196C411.442 2.73216 411.335 2.89523 411.202 3.04119C411.068 3.18715 410.915 3.30836 410.741 3.4048C410.567 3.50124 410.382 3.56788 410.186 3.60471C409.99 3.64154 409.892 3.65995 409.892 3.65995C409.892 3.65994 408.646 3.63635 406.153 3.58918C403.66 3.54201 397.798 3.73996 388.567 4.18305C379.335 4.62614 366.341 5.06759 349.583 5.50743C332.826 5.94727 312.328 6.48669 288.088 7.12569C263.848 7.76469 238.319 8.64257 211.5 9.75936C184.68 10.8761 158.922 12.4672 134.225 14.5324C109.528 16.5976 89.5154 18.5489 74.1879 20.3863C58.8604 22.2236 46.9142 23.9772 38.3495 25.6471C29.7848 27.3169 21.923 29.5841 14.764 32.4485C7.605 35.313 3.92748 36.77 3.73145 36.8195C3.53541 36.869 3.33621 36.8948 3.13386 36.8968C2.9315 36.8988 2.73187 36.8769 2.53496 36.8312C2.33804 36.7855 2.14956 36.7173 1.96953 36.6266C1.7895 36.5359 1.62315 36.4254 1.47047 36.2949C1.31779 36.1645 1.18321 36.0179 1.06675 35.8553C0.950288 35.6927 0.855327 35.5187 0.781858 35.3334C0.708389 35.1481 0.658542 34.9568 0.632334 34.7596C0.606126 34.5623 0.604324 34.3648 0.6269 34.1671C0.649476 33.9693 0.695778 33.7771 0.765826 33.5904C0.835875 33.4037 0.927633 33.2279 1.04108 33.063C1.15453 32.8982 1.28638 32.7491 1.43664 32.6157C1.58689 32.4823 1.75118 32.3685 1.92951 32.2743C2.10784 32.1801 2.19685 32.1331 2.19677 32.1331Z" fill="black"/>
 				</svg>					
 			</span> cards for dining
 		</h1>
-		<p class="text-xl mb-[1.5em] text-center">
+		<p class="text-xl mb-[1.5em] text-center zoom-in delay-[60ms]">
 			Earn 7% cashback with every receipt.
 		</p>
 		<span
-			class="inline-block bg-black rounded-full text-lg text-white font-bold py-[0.65em] px-[2.66em]"
+			class="inline-block bg-black cursor-not-allowed rounded-full text-lg text-white font-bold py-[0.65em] px-[2.66em] zoom-in delay-[120ms]"
 			>Get your card</span
 		>
 	</div>
@@ -77,11 +77,15 @@
 					<stop offset="1" stop-color="#F7DA13"/>
 				</linearGradient>
 			</defs>
-			<path d={$path} stroke="url(#paint0_linear_621_150)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/>
+			<path d={$path}
+			class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[2s] delay-[-0.5s]"
+			stroke-dasharray="4703"
+			stroke-dashoffset="4703"
+			stroke="url(#paint0_linear_621_150)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/>
 		</svg>
 		
 		<!-- Left card -->
-		<div class="absolute h-[36%] right-[105%] bottom-[7%] group origin-bottom-right z-20 rotate-[60deg] aspect-[555/351]" on:pointerover={() => $path = LEFT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute h-[36%] right-[105%] bottom-[7%] group origin-bottom-right z-20 entered-fonts-loaded:rotate-[60deg] entered-fonts-loaded:opacity-100 transition ease-out-expo duration-[1000ms] rotate-90 translate-y-[200%] delay-[200ms] entered-fonts-loaded:translate-y-0 aspect-[555/351]" on:pointerover={() => $path = LEFT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<svg class="h-[135%] absolute opacity-80 pointer-events-none -bottom-[40%] -right-[30%]" viewBox="0 0 407 451" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g filter="url(#filter0_f_626_207)">
 				<rect x="205" y="100" width="93" height="251" rx="46.5" fill="#FFE703" fill-opacity="0.7"/>
@@ -122,7 +126,7 @@
 				<circle cx="108.839" cy="284.301" r="4.68682" fill="black"/>
 			</svg>
 		</div>
-		<div class="bg-black prev-hover:-translate-y-[10%] transition duration-[400ms] ease-out-quart rounded-[100%] h-[52%] right-[82.5%] absolute bottom-[16.5%] z-10 aspect-square" />	
+		<div class="prev-hover:-translate-y-[10%] transition duration-[400ms] ease-out-quart h-[52%] right-[82.5%] absolute bottom-[16.5%] z-10 aspect-square"><div class="bg-black absolute rounded-[100%] inset-0 zoom-in delay-[120ms]" /></div>	
 
 		<!-- Center card -->
 		<svg class="h-[70%] opacity-60 absolute pointer-events-none left-[10%] -bottom-[20%]" viewBox="0 0 359 508" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +141,7 @@
 			</filter>
 			</defs>
 		</svg>				
-		<div class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left rotate-[14deg] aspect-[555/351]" on:pointerover={() => $path = CENTER_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left entered-fonts-loaded:rotate-[14deg] entered-fonts-loaded:opacity-100 transition ease-out-expo duration-[1000ms] rotate-90 translate-y-[200%] entered-fonts-loaded:translate-y-0 aspect-[555/351]" on:pointerover={() => $path = CENTER_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<!-- Rate -->
 			<div class="absolute bottom-0 left-0 w-full h-[200%] overflow-hidden pointer-events-none">
 				<svg class="w-[45%] absolute left-[45%] top-1/2 will-change-transform translate-y-[10%] group-hover:-translate-x-[10%] group-hover:-translate-y-[55%] group-hover:-rotate-[12.5deg] transition ease-out-expo group-hover:duration-[500ms] duration-[750ms]" viewBox="0 0 433 694" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -162,10 +166,10 @@
 				<circle cx="105.499" cy="273.5" r="4.5" fill="black"/>
 			</svg>
 		</div>
-		<div class="bg-black prev-hover:-translate-y-[5%] transition duration-[400ms] ease-out-quart z-10 rounded-[100%] h-[70%] left-[30%] absolute -bottom-[33%] aspect-square" />	
+		<div class="prev-hover:-translate-y-[5%] transition duration-[400ms] ease-out-quart z-10 h-[70%] left-[30%] absolute -bottom-[33%] aspect-square"><div class="bg-black absolute rounded-[100%] inset-0 zoom-in" /></div>	
 
 		<!-- Right card -->
-		<div class="absolute left-[93%] z-20 bottom-[9%] group h-[37%] origin-bottom-left -rotate-[30deg] aspect-[555/351]" on:pointerover={() => $path = RIGHT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
+		<div class="absolute left-[93%] z-20 bottom-[9%] group h-[37%] origin-bottom-left entered-fonts-loaded:-rotate-[30deg] entered-fonts-loaded:opacity-100 transition ease-out-expo duration-[1000ms] rotate-[90deg] translate-y-[200%] delay-[240ms] -translate-x-[70%] entered-fonts-loaded:-translate-x-0 entered-fonts-loaded:translate-y-0 aspect-[555/351]" on:pointerover={() => $path = RIGHT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<svg class="h-[125%] absolute pointer-events-none -bottom-[40%] -left-[30%]" viewBox="0 0 425 404" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g filter="url(#filter0_f_626_201)">
 					<rect x="100.883" y="100.181" width="93" height="202.884" rx="46.5" fill="#98E53B" fill-opacity="0.7"/>
@@ -206,6 +210,6 @@
 				<circle cx="106.915" cy="279.275" r="4.60395" fill="black"/>
 			</svg>
 		</div>			
-		<div class="bg-black z-10 transition duration-[400ms] ease-out-quart prev-hover:-translate-x-[6%] rounded-[100%] h-[50%] left-[82%] absolute bottom-[28%] aspect-square" />	
+		<div class="z-10 transition duration-[400ms] ease-out-quart prev-hover:-translate-x-[6%] h-[50%] left-[82%] absolute bottom-[28%] aspect-square"><div class="bg-black absolute rounded-[100%] inset-0 zoom-in delay-[60ms]" /></div>
 	</div>
 </header>
