@@ -37,8 +37,8 @@
 				<span class="cursor-not-allowed">Resources</span>
 			</div>
 			<div class="hidden @5xl:flex gap-6 whitespace-nowrap items-center">
-				<span class="font-bold text-lg">Log in</span>
-				<span class="font-bold text-lg rounded-full px-[1.6em] py-[0.25em] border-2">
+				<span class="font-bold text-lg cursor-not-allowed">Log in</span>
+				<span class="font-bold text-lg cursor-not-allowed rounded-full px-[1.6em] py-[0.25em] border-2">
 					Sign Up
 				</span>
 			</div>
@@ -67,7 +67,7 @@
 			>Get your card</span
 		>
 	</div>
-	<div class="w-full max-w-7xl mt-[max(-30vw,-24rem)] mx-auto aspect-[1458/1033] relative">
+	<div class="w-full max-w-7xl mt-[max(-15vw,-15rem)] md:mt-[max(-30vw,-24rem)] mx-auto aspect-[1458/1033] relative">
 		<!-- Line -->
 		<svg class="h-[108%] absolute -left-[9.5%] bottom-[9%] [clip-path:inset(0_0_0_3%)]" viewBox="0 0 2880 1696" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<defs>
