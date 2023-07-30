@@ -80,7 +80,20 @@
 		</svg>
 		<!-- Left card -->
 		<div class="absolute h-[36%] right-[105%] bottom-[7%] group origin-bottom-right z-20 rotate-[60deg]" on:pointerover={() => $path = LEFT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
-			<svg class="h-full pointer-events-none origin-[inherit] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo group-hover:-rotate-[7deg]" viewBox="0 0 555 351" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class="h-[135%] absolute opacity-80 pointer-events-none -bottom-[40%] -right-[30%]" viewBox="0 0 407 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g filter="url(#filter0_f_626_207)">
+				<rect x="205" y="100" width="93" height="251" rx="46.5" fill="#FFE703" fill-opacity="0.7"/>
+				<rect x="100" y="258" width="207" height="93" rx="46.5" fill="#FFE703" fill-opacity="0.7"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_626_207" x="0" y="0" width="407" height="451" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_626_207"/>
+				</filter>
+				</defs>
+			</svg>						
+			<svg class="relative h-full pointer-events-none origin-[inherit] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo group-hover:-rotate-[7deg]" viewBox="0 0 555 351" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<rect width="554.836" height="350.406" rx="37" fill="#FEE600"/>
 				<path d="M84.2631 47.2496H65.6609V80.6703H84.2631V47.2496Z" fill="#FF5A00"/>
 				<path d="M66.8991 63.9598C66.8991 57.1697 70.0912 51.1433 74.9894 47.2495C71.3845 44.4151 66.8372 42.7021 61.8771 42.7021C50.1269 42.7021 40.6194 52.2096 40.6194 63.9598C40.6194 75.71 50.1269 85.2175 61.8771 85.2175C66.8372 85.2175 71.3845 83.5045 74.9894 80.6701C70.0843 76.8314 66.8991 70.7499 66.8991 63.9598Z" fill="#EB001B"/>
@@ -97,6 +110,18 @@
 		</div>
 		<div class="bg-black prev-hover:-translate-y-[10%] transition duration-[400ms] ease-out-quart rounded-[100%] h-[52%] right-[82.5%] absolute bottom-[16.5%] z-10 aspect-square" />	
 		<!-- Center card -->
+		<svg class="h-[70%] opacity-60 absolute pointer-events-none left-[10%] -bottom-[20%]" viewBox="0 0 359 508" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<g filter="url(#filter0_f_626_211)">
+			<rect x="100" y="100" width="159" height="308" rx="79.5" fill="#E962FF"/>
+			</g>
+			<defs>
+			<filter id="filter0_f_626_211" x="0" y="0" width="359" height="508" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_626_211"/>
+			</filter>
+			</defs>
+		</svg>				
 		<div class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left rotate-[14deg]" on:pointerover={() => $path = CENTER_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
 			<svg class="h-full origin-[inherit] pointer-events-none group-hover:rotate-[8deg] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo" viewBox="0 0 534 337" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<rect x="0.998779" y="0.531799" width="532.72" height="336.438" rx="37" fill="#EB71FE"/>
@@ -114,7 +139,20 @@
 		<div class="bg-black prev-hover:-translate-y-[5%] transition duration-[400ms] ease-out-quart z-10 rounded-[100%] h-[70%] left-[30%] absolute -bottom-[33%] aspect-square" />	
 		<!-- Right card -->
 		<div class="absolute left-[93%] z-20 bottom-[9%] group h-[37%] origin-bottom-left -rotate-[30deg]" on:pointerover={() => $path = RIGHT_HOVER_PATH} on:pointerout={() => $path = DEFAULT_PATH}>
-			<svg class="h-full pointer-events-none origin-[inherit] group-hover:rotate-[7deg] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo" viewBox="0 0 546 345" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<svg class="h-[125%] absolute pointer-events-none -bottom-[40%] -left-[30%]" viewBox="0 0 425 404" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g filter="url(#filter0_f_626_201)">
+					<rect x="100.883" y="100.181" width="93" height="202.884" rx="46.5" fill="#98E53B" fill-opacity="0.7"/>
+					<rect x="101" y="209" width="224" height="93" rx="46.5" fill="#98E53B" fill-opacity="0.7"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_626_201" x="0.882812" y="0.181396" width="424.117" height="402.884" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_626_201"/>
+				</filter>
+				</defs>
+			</svg>				
+			<svg class="relative h-full pointer-events-none origin-[inherit] group-hover:rotate-[6deg] transition group-hover:duration-[300ms] duration-[700ms] ease-out-expo" viewBox="0 0 546 345" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<rect width="545.026" height="344.21" rx="37" fill="#98E53B"/>
 				<path d="M82.7733 46.4142H64.5V79.2439H82.7733V46.4142Z" fill="#FF5A00"/>
 				<path d="M65.7164 62.8291C65.7164 56.1591 68.8521 50.2392 73.6637 46.4142C70.1226 43.63 65.6556 41.9473 60.7832 41.9473C49.2407 41.9473 39.9014 51.2866 39.9014 62.8291C39.9014 74.3715 49.2407 83.7109 60.7832 83.7109C65.6556 83.7109 70.1226 82.0282 73.6637 79.244C68.8453 75.4731 65.7164 69.4991 65.7164 62.8291Z" fill="#EB001B"/>
@@ -129,6 +167,6 @@
 				<circle cx="106.915" cy="279.275" r="4.60395" fill="black"/>
 			</svg>
 		</div>			
-		<div class="bg-black z-10 transition duration-[400ms] ease-out-quart prev-hover:-translate-x-[5%] rounded-[100%] h-[50%] left-[82%] absolute bottom-[28%] aspect-square" />	
+		<div class="bg-black z-10 transition duration-[400ms] ease-out-quart prev-hover:-translate-x-[6%] rounded-[100%] h-[50%] left-[82%] absolute bottom-[28%] aspect-square" />	
 	</div>
 </header>
