@@ -68,7 +68,7 @@
 					/>
 				</svg>
 				<svg
-					class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[825ms]"
+					class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[600ms]"
 					viewBox="0 0 412 37"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@
 			</defs>
 			<path
 				d={$path}
-				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[2s] delay-[-0.5s]"
+				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[1.5s] delay-[-0.5s]"
 				stroke-dasharray="4703"
 				stroke-dashoffset="4703"
 				stroke="url(#paint0_linear_621_150)"
