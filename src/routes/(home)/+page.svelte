@@ -57,7 +57,7 @@
 			<span class="inline-block relative zoom-in">
 				Best
 				<svg
-					class="top-[87%] -right-[5%] w-[110%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[400ms] delay-[300ms]"
+					class="top-[87%] -right-[5%] w-[110%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[400ms] delay-[350ms]"
 					viewBox="0 0 366 18"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@
 					/>
 				</svg>
 				<svg
-					class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[600ms]"
+					class="top-[96%] -right-[4%] w-[120%] absolute [clip-path:inset(0_100%_0_0)] entered-fonts-loaded:[clip-path:inset(0)] transition-[clip-path] duration-[450ms] delay-[800ms]"
 					viewBox="0 0 412 37"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@
 			</defs>
 			<path
 				d={$path}
-				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[1.5s] delay-[-0.5s]"
+				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[1.85s] delay-[-0.5s]"
 				stroke-dasharray="4703"
 				stroke-dashoffset="4703"
 				stroke="url(#paint0_linear_621_150)"
@@ -256,7 +256,7 @@
 
 		<!-- Center card -->
 		<svg
-			class="h-[70%] opacity-60 absolute pointer-events-none left-[10%] -bottom-[20%]"
+			class="h-[70%] absolute pointer-events-none left-[10%] -bottom-[20%] origin-bottom-left entered-fonts-loaded:rotate-[14deg] opacity-0 entered-fonts-loaded:opacity-80 transition ease-out-expo duration-[1000ms] rotate-90 translate-y-[200%] entered-fonts-loaded:translate-y-0"
 			viewBox="0 0 359 508"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +281,7 @@
 			</defs>
 		</svg>
 		<div
-			class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left entered-fonts-loaded:rotate-[14deg] entered-fonts-loaded:opacity-100 transition ease-out-expo duration-[1000ms] rotate-90 translate-y-[200%] entered-fonts-loaded:translate-y-0 aspect-[555/351]"
+			class="absolute left-[25%] bottom-[1%] z-20 group h-[37%] origin-bottom-left entered-fonts-loaded:rotate-[14deg] transition ease-out-expo duration-[1000ms] rotate-90 translate-y-[200%] entered-fonts-loaded:translate-y-0 aspect-[555/351]"
 			on:pointerover={() => ($path = CENTER_HOVER_PATH)}
 			on:pointerout={() => ($path = DEFAULT_PATH)}
 		>
