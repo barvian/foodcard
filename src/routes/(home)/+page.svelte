@@ -114,11 +114,12 @@
 			</defs>
 			<path
 				d={$path}
-				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:9406] duration-[1.85s] delay-[-0.5s]"
-				stroke-dasharray="4703"
-				stroke-dashoffset="4703"
+				class="transition-[stroke-dashoffset] ease-out-quad entered-fonts-loaded:[stroke-dashoffset:2] duration-[1.85s] delay-[-0.5s]"
+				stroke-dasharray="1"
+				stroke-dashoffset="1"
 				stroke="url(#paint0_linear_621_150)"
 				stroke-width="3"
+				pathLength="1"
 				vector-effect="non-scaling-stroke"
 				stroke-linecap="round"
 			/>
