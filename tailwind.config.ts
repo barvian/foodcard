@@ -1,9 +1,14 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import containerQueryPlugin from '@tailwindcss/container-queries'
+import { fluidCorePlugins, buildFluidExtract, defaultScreensInRems } from '@fluid.style/tailwind'
+const { '2xl': _, ...screens } = defaultScreensInRems
 
 export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: {
+		files: ['./src/**/*.{html,js,svelte,ts}'],
+		extract: buildFluidExtract()
+	},
 	theme: {
 		colors: {
 			black: '#000',
@@ -13,6 +18,10 @@ export default {
 				200: '#eee'
 			}
 		},
+		screens: {
+			...screens,
+			xs: '30rem'
+		},
 		extend: {
 			transitionDuration: {
 				250: '250ms'
@@ -20,23 +29,10 @@ export default {
 			borderColor: {
 				DEFAULT: 'currentColor'
 			},
-			screens: {
-				xs: '480px'
-			},
 			fontFamily: {
 				sans: ['Agrandir', 'sans-serif']
 			},
-			fontSize: {
-				// https://royalfig.github.io/fluid-typography-calculator/
-				xl: 'clamp(1.5rem, 1.41rem + 0.434vw, 1.75rem)',
-				'4xl': 'clamp(2.75rem, 1.4021739130434783rem + 6.739130434782608vw, 6.625rem)'
-			},
 			backgroundImage: {},
-			spacing: {
-				lg: 'clamp(2.00rem, calc(1.91rem + 0.43vw), 2.25rem)',
-				xl: 'clamp(2.00rem, calc(1.52rem + 2.39vw), 3.38rem)',
-				'2xl': 'clamp(3.125rem, 2.4728260869565215rem + 3.260869565217391vw, 5rem)'
-			},
 			letterSpacing: {},
 			lineHeight: {},
 			dropShadow: {},
@@ -54,6 +50,7 @@ export default {
 		}
 	},
 	plugins: [
+		fluidCorePlugins,
 		containerQueryPlugin,
 		plugin(({ addVariant }) => {
 			addVariant('js', '[data-js]:root &')

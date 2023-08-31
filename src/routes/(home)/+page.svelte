@@ -27,11 +27,11 @@
 </svelte:head>
 
 <header
-	class="pt-[clamp(theme(padding.5),4vw,theme(padding.10))] text-center overflow-hidden"
+	class="~pt-5/10 text-center overflow-hidden"
 	use:observe
 >
 	<div class="container @container relative z-30">
-		<nav class="flex items-center mb-2xl">
+		<nav class="flex items-center ~mb-[3.125rem]/[5rem]">
 			<a href="/" class="zoom-in"><Logo class="h-7" /></a>
 			<div class="hidden @5xl:flex gap-[2.5em] whitespace-nowrap font-medium mx-auto">
 				<span class="cursor-not-allowed zoom-in delay-[60ms]">Product</span>
@@ -53,7 +53,7 @@
 				<div class="bg-black h-0.5 rounded-full" />
 			</div>
 		</nav>
-		<h1 class="text-4xl/[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center zoom-in">
+		<h1 class="~text-[2.75rem]/[6.625rem] leading-[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center zoom-in">
 			<span class="inline-block relative zoom-in">
 				Best
 				<svg
@@ -80,7 +80,7 @@
 				</svg>
 			</span> cards for dining
 		</h1>
-		<p class="text-xl mb-[1.5em] text-center zoom-in delay-[60ms]">
+		<p class="~text-[1.5rem]/[1.75rem] mb-[1.5em] text-center zoom-in delay-[60ms]">
 			Earn 7% cashback with every receipt.
 		</p>
 		<span
