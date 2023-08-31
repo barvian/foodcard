@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import containerQueryPlugin from '@tailwindcss/container-queries'
-import { fluidCorePlugins, buildFluidExtract, defaultScreensInRems } from '@fluid.style/tailwind'
+import { fluidCorePlugins, buildFluidExtract, defaultScreensInRems } from '@fluidstyle/tailwindcss-plugin'
 const { '2xl': _, ...screens } = defaultScreensInRems
 
 export default {
