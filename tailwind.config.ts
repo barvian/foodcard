@@ -1,13 +1,13 @@
 import type { Config } from 'tailwindcss'
 import plugin from 'tailwindcss/plugin'
 import containerQueryPlugin from '@tailwindcss/container-queries'
-import { fluidCorePlugins, buildFluidExtract, defaultScreensInRems } from '@fluidstyle/tailwindcss-plugin'
-const { '2xl': _, ...screens } = defaultScreensInRems
+import { fluidCorePlugins, fluidExtractor, defaultThemeScreensInRems, defaultThemeFontSizeInRems } from 'fluid-tailwind'
+const { '2xl': _, ...screens } = defaultThemeScreensInRems
 
 export default {
 	content: {
 		files: ['./src/**/*.{html,js,svelte,ts}'],
-		extract: buildFluidExtract()
+		extract: fluidExtractor()
 	},
 	theme: {
 		colors: {
@@ -18,6 +18,7 @@ export default {
 				200: '#eee'
 			}
 		},
+		fontSize: defaultThemeFontSizeInRems,
 		screens: {
 			...screens,
 			xs: '30rem'
@@ -32,12 +33,6 @@ export default {
 			fontFamily: {
 				sans: ['Agrandir', 'sans-serif']
 			},
-			backgroundImage: {},
-			letterSpacing: {},
-			lineHeight: {},
-			dropShadow: {},
-			animation: {},
-			keyframes: {},
 			transitionTimingFunction: {
 				'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
 				'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',

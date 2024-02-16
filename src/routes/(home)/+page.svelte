@@ -53,7 +53,7 @@
 				<div class="bg-black h-0.5 rounded-full" />
 			</div>
 		</nav>
-		<h1 class="~text-[2.75rem]/[6.625rem] leading-[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center zoom-in">
+		<h1 class="~text-[2.75rem]/[6.625rem] text-balance leading-[116%] max-w-4xl mx-auto font-extrabold mb-[0.25em] text-center zoom-in">
 			<span class="inline-block relative zoom-in">
 				Best
 				<svg
